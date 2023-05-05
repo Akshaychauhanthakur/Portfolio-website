@@ -475,7 +475,8 @@ nav ul li a:hover::after {
 .btn-1 {
     display: flex;
     margin: 35px 10px;
-    font-size: small cursor: pointer;
+    font-size: small; 
+    cursor: pointer;
     width: fit-content;
     border: 2px solid #ff004f;
     padding: 14px 50px;
