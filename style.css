@@ -602,6 +602,7 @@ nav .fas{
     #header{
         background-image: url(img/black.jpg);
     }
+
     .header-text{
         margin-top: 75%;
         font-size: 16px;
@@ -621,8 +622,9 @@ nav .fas{
         font-size: 10px;
     }
 
-    nav .img{
-        width: min-content;
+    .logo{
+        width: 62vw;
+        height: 8vh;
     }
 
     nav .fas{
