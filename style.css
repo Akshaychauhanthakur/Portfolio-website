@@ -144,7 +144,7 @@ nav ul li a:hover::after {
 }
 
 .tab{
-    margin: 60px 170px;
+    margin: 60px 0px;
 }
 
 
@@ -203,12 +203,23 @@ nav ul li a:hover::after {
     display: block;
 }
 
-/* ---------------services--------------------- */
-
-#services {
-    padding: 30px 0;
-    margin-left: 30px;
+.btn-3 {
+    display: flex;
+    /* margin: 35px 10px; */
+    font-size: 11px;
+    cursor: pointer;
+    width: fit-content;
+    border: 2px solid #ff004f;
+    padding: 8px 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    gap: 10px;
 }
+
+
+/* ---------------services--------------------- */
 
 .container2{
     max-width: 1200px;
@@ -592,12 +603,25 @@ nav .fas{
         background-image: url(img/black.jpg);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 75%;
         font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
     }
+
+    nav{
+        margin-right: 20px;
+    }
+
+    .button{
+        margin: -8px -35px;
+    }
+
+    nav .img{
+        width: min-content;
+    }
+
     nav .fas{
         display: block;
         font-size: 20px;
@@ -624,6 +648,10 @@ nav .fas{
         cursor: pointer;
     }
 
+    .tab {
+        margin: 60px -110px;
+    }
+
     .sub-title{
         font-size: 30px;
     }
@@ -635,7 +663,21 @@ nav .fas{
     }
     .about-col-2{
         font-size: 14px;
+        margin-left: -50px;
     }
+
+    .about-col-2 .para{
+        margin-right: -150px;
+    }
+
+    .container3{
+        margin: 25px;
+    }
+
+    .container2{
+        margin: 25px;
+    }
+    
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
